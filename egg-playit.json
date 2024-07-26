@@ -4,13 +4,13 @@
         "version": "PTDL_v2",
         "update_url": null
     },
-    "exported_at": "2024-07-25T23:56:39+02:00",
+    "exported_at": "2024-07-26T16:44:20+02:00",
     "name": "playit",
     "author": "pney0708@gmail.com",
-    "description": null,
+    "description": "playit.gg makes it easy for friends to connect.",
     "features": null,
     "docker_images": {
-        "ghcr.io\/2peti\/playit-docker": "ghcr.io\/2peti\/playit-pterodactyl"
+        "ghcr.io\/2peti\/playit-pterodactyl": "ghcr.io\/2peti\/playit-pterodactyl"
     },
     "file_denylist": [],
     "startup": "playit -s --secret_path=\"\/home\/container\/playit.toml\"",
