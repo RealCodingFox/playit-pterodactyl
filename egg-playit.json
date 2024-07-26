@@ -1,0 +1,31 @@
+{
+    "_comment": "DO NOT EDIT: FILE GENERATED AUTOMATICALLY BY PTERODACTYL PANEL - PTERODACTYL.IO",
+    "meta": {
+        "version": "PTDL_v2",
+        "update_url": null
+    },
+    "exported_at": "2024-07-25T23:56:39+02:00",
+    "name": "playit",
+    "author": "pney0708@gmail.com",
+    "description": null,
+    "features": null,
+    "docker_images": {
+        "ghcr.io\/2peti\/playit-docker": "ghcr.io\/2peti\/playit-pterodactyl"
+    },
+    "file_denylist": [],
+    "startup": "playit -s --secret_path=\"\/home\/container\/playit.toml\"",
+    "config": {
+        "files": "{}",
+        "startup": "{\r\n    \"done\": \"tunnel running\"\r\n}",
+        "logs": "{}",
+        "stop": "^C"
+    },
+    "scripts": {
+        "installation": {
+            "script": null,
+            "container": "debian:buster-slim",
+            "entrypoint": "bash"
+        }
+    },
+    "variables": []
+}
