@@ -1,3 +1,4 @@
+Launch the server
 # playit-docker
 made to work with pterodactyl
 import using egg-playit.json
